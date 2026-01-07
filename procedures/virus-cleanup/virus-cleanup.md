@@ -20,7 +20,7 @@ This procedure outlines a best-effort remediation process for suspected malware 
 - Registry audit (high risk of system instability)
 - Operating system reload (covered under separate procedure)
 
-## Assumptions & Prerequisites
+## Requirements & Prerequisites
 
 - The client has acknowledged and accepted the risks associated with malware remediation versus a full operating system reload
 - Administrative access to the system is available
