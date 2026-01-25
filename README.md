@@ -47,11 +47,11 @@ Documentation approach: Each module includes an overview, architecture details, 
 
 **OPNsense Firewall Deployment & Baseline Hardening** <br>
 Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, device hardening <br>
-→ [opnsense-deployment](path/to/file.md)
+→ [opnsense-deployment](labs/opnsense-deployment/opnsense-deployment.md)
 
 **Local Network Segmentation w/ VLANs** <br>
 Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & ethernet networking <br>
-→ [local-network-segmentation](path/to/file.md)
+→ [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
 
 ## Roadmap
 
