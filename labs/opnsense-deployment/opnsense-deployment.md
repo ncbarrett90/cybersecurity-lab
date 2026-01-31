@@ -96,17 +96,17 @@ The following table highlights the most impactful security configurations applie
 - Actual result: 
     - Confirmed that TLS was used to the destination DNS provider (Quad9) in the live firewall logs
 
-    ![Network Diagram](unbound-tls-verify.png)
+    ![Verify Unbound TLS](unbound-tls-verify.png)
 
     -   The logs showed that local resolving was occurring and the report dashboard showed blocked/resolved domains
 
-![Network Diagram](unbound-reporting.png)
+![Unbound Reporting](unbound-reporting.png)
 
 ### Verify the WireGuard connection is established
 - Expected result: The connection is established if bytes are sent over the wire
 - Actual results: The connection is showing bytes both sent and received so the connection is established
 
-![Network Diagram](wg-verify-connection.png)
+![WatchGuard Connection Verification](wg-verify-connection.png)
 
 ### Verify that outbound traffic is routed through the VPN tunnel
 - Expected result: Public IP, DNS server configuration, Firewall logs and traceroute reflect VPN provider configurations
