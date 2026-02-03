@@ -45,13 +45,17 @@ This lab simulates a small enterprise network with segmented security zones, fir
 
 Documentation approach: Each module includes an overview, architecture details, key security configurations, challenges/validation and summarized implementation notes.
 
-**OPNsense Firewall Deployment & Baseline Hardening** <br>
+1. **OPNsense Firewall Deployment & Baseline Hardening** <br>
 Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, device hardening <br>
 → [opnsense-deployment](labs/opnsense-deployment/opnsense-deployment.md)
 
-**Local Network Segmentation w/ VLANs** <br>
-Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & ethernet networking <br>
+2. **Local Network Segmentation w/ VLANs** <br>
+Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & Ethernet networking <br>
 → [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
+
+3. **Proxmox Hypervisor Deployment & Hardening** <br>
+Linux, type 1 hypervisor, SSH, virtualization, SMTP <br>
+→ [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
 
 ## Roadmap
 
