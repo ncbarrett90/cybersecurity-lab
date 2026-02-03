@@ -59,19 +59,14 @@ Linux, type 1 hypervisor, SSH, virtualization, SMTP <br>
 
 ## Roadmap
 
-- [X] OPNsense deployment
-- [X] VLAN based network segmentation
-- [X] Production Proxmox server deployment
-- [...] Production Proxmox server hardening
-- [...] Ubuntu server (VM) deployment & hardening 
-    - Install Unifi Network Controller and import configuration
-- [...] BIOS/UEFI hardening on all devices
-- [...] Network device hardening
-    - Managed switches
-    - OPNsense firewall
-    - Unifi wireless access point(s)
-- [...] Deploy Ubuntu server to use as a Docker host
-- [...] Lab Proxmox server deployment & hardening
+[X] OPNsense firewall deployment <br>
+[X] VLAN based network segmentation <br>
+[X] Production Proxmox server deployment & hardening<br>
+[...] Ubuntu server (VM) deployment & hardening <br>
+[...] Install Unifi Network Controller and import configuration <br> 
+[...] Deploy a Docker host VM <br>
+[...] Configure Suricata IDS/IPS <br>
+[...] Deploy Wazuh XDR & SIEM <br>
 
 ## About Me
 
