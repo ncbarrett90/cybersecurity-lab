@@ -2,17 +2,45 @@
 
 A hands on lab focused on cybersecurity, enterprise style network design, and IT best practices.
 
+
+
 ## Lab Overview
 
 This lab simulates a small enterprise network with segmented security zones, firewalling, virtualized workloads, and layered defenses, enabling both blue-team (defensive) and red-team (offensive) cybersecurity practice. 
 
-### Architecture Diagram
+
+
+## Lab Modules
+
+Documentation approach: Each module includes an overview, architecture details, key security configurations, challenges/validation and summarized implementation notes.
+
+1. **OPNsense Firewall Deployment & Baseline Hardening** <br>
+Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, device hardening <br>
+→ [opnsense-deployment](labs/opnsense-deployment/opnsense-deployment.md)
+
+2. **Local Network Segmentation w/ VLANs** <br>
+Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & Ethernet networking <br>
+→ [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
+
+3. **Proxmox Hypervisor Deployment & Hardening** <br>
+Linux, Proxmox, SSH, virtualization, SMTP <br>
+→ [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
+
+3. **Ubuntu Server Deployment & Hardening** <br>
+Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw <br>
+→ [ubuntu-server-deployment](labs/ubuntu-server-deployment/ubuntu-server-deployment.md)
+
+
+
+## Architecture Diagram
 
 **IN PROGRESS:** Production Proxmox server deployment and hardening
 
 ![Network Diagram](network-diagram.png)
 
 **Note:** This is not all configured as of yet and is subject to change as the lab develops
+
+
 
 ## Objectives
 
@@ -41,25 +69,7 @@ This lab simulates a small enterprise network with segmented security zones, fir
 
 </details>
 
-## Lab Modules
 
-Documentation approach: Each module includes an overview, architecture details, key security configurations, challenges/validation and summarized implementation notes.
-
-1. **OPNsense Firewall Deployment & Baseline Hardening** <br>
-Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, device hardening <br>
-→ [opnsense-deployment](labs/opnsense-deployment/opnsense-deployment.md)
-
-2. **Local Network Segmentation w/ VLANs** <br>
-Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & Ethernet networking <br>
-→ [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
-
-3. **Proxmox Hypervisor Deployment & Hardening** <br>
-Linux, Proxmox, SSH, virtualization, SMTP <br>
-→ [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
-
-3. **Ubuntu Server Deployment & Hardening** <br>
-Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw <br>
-→ [ubuntu-server-deployment](labs/ubuntu-server-deployment/ubuntu-server-deployment.md)
 
 ## Roadmap
 
@@ -73,6 +83,7 @@ Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw 
 [...] Configure Suricata IDS/IPS <br>
 [...] Deploy Nessus vulnerability scanner <br>
 [...] Create virtualized Active Directory network <br>
+
 
 
 ## About Me
