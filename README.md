@@ -54,20 +54,27 @@ Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN 
 → [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
 
 3. **Proxmox Hypervisor Deployment & Hardening** <br>
-Linux, type 1 hypervisor, SSH, virtualization, SMTP <br>
+Linux, Proxmox, SSH, virtualization, SMTP <br>
 → [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
+
+3. **Ubuntu Server Deployment & Hardening** <br>
+Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw <br>
+→ [ubuntu-server-deployment](labs/ubuntu-server-deployment/ubuntu-server-deployment.md)
 
 ## Roadmap
 
 [X] OPNsense firewall deployment <br>
 [X] VLAN based network segmentation <br>
 [X] Production Proxmox server deployment & hardening<br>
-[...] Ubuntu server (VM) deployment & hardening <br>
-[...] Install Unifi Network Controller and import configuration <br> 
-[...] Deploy a Docker host VM <br>
-[...] Configure Suricata IDS/IPS <br>
+[X] Ubuntu server (VM) deployment & hardening <br>
+[X] Install Unifi Network Controller and import configuration <br> 
+[X] Deploy a Docker host VM <br>
 [...] Deploy Wazuh XDR & SIEM <br>
+[...] Configure Suricata IDS/IPS <br>
+[...] Deploy Nessus vulnerability scanner <br>
+[...] Create virtualized Active Directory network <br>
+
 
 ## About Me
 
-This lab is part of a broader GitHub portfolio. For an overview of my background and other projects, see my [GitHub Profile](path/to/file.md)
+This lab is part of a broader GitHub portfolio. For an overview of my background and other projects, see my [GitHub Profile](https://github.com/ncbarrett90)
