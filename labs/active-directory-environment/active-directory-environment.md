@@ -15,8 +15,13 @@ The DC uses the firewall DNS server; domain clients use the DC for DNS and DHCP
 
 Managing the domain devices requires access to the MGMT subnet or the admin workstation on the HOME subnet
 
+### Network Diagram w/ VLANs
 
 ![Network Diagram](images/network-diagram.png)
+
+### The Virtual Machine Lineup
+
+![Domain Machines](images/ad-machines.png)
 
 
 
