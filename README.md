@@ -26,9 +26,13 @@ Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN 
 Linux, Proxmox, SSH, virtualization, SMTP <br>
 → [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
 
-3. **Ubuntu Server Deployment & Hardening** <br>
+4. **Ubuntu Server Deployment & Hardening** <br>
 Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw <br>
 → [ubuntu-server-deployment](labs/ubuntu-server-deployment/ubuntu-server-deployment.md)
+
+5. **Active Directory Environment Build** <br>
+Active Directory, Domain Controller, Windows Server, Windows 10/11 <br>
+→ [active-directory-environment](labs/active-directory-environment/active-directory-environment.md)
 
 
 
@@ -79,10 +83,11 @@ Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw 
 [X] Ubuntu server (VM) deployment & hardening <br>
 [X] Install Unifi Network Controller and import configuration <br> 
 [X] Deploy a Docker host VM <br>
+[X] Create virtualized Active Directory network <br>
 [...] Deploy Wazuh XDR & SIEM <br>
 [...] Configure Suricata IDS/IPS <br>
 [...] Deploy Nessus vulnerability scanner <br>
-[...] Create virtualized Active Directory network <br>
+
 
 
 
