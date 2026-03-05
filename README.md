@@ -34,7 +34,9 @@ Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw 
 Active Directory, Domain Controller, Windows Server, Windows 10/11 <br>
 → [active-directory-environment](labs/active-directory-environment/active-directory-environment.md)
 
-
+6. **Proxmox Backup Server Deployment** <br>
+Linux, Proxmox Backup Server, Open Media Vault, stateless API authentication, Proxmox VE, NAS, disaster recovery, ZFS RAID <br>
+→ [backup-server-deployment](labs/backup-server-deployment/backup-server-deployment.md)
 
 ## Architecture Diagram
 
