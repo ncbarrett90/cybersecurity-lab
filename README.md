@@ -40,7 +40,7 @@ Linux, Proxmox Backup Server, Open Media Vault, stateless API authentication, Pr
 
 ## Architecture Diagram
 
-**IN PROGRESS:** Production Proxmox server deployment and hardening
+**IN PROGRESS:** Wazuh endpoint detection and response implementation for the Active Directory subnet
 
 ![Network Diagram](network-diagram.png)
 
@@ -72,6 +72,11 @@ Linux, Proxmox Backup Server, Open Media Vault, stateless API authentication, Pr
 - Packet capture
 - Traceroute
 - Firewall logs
+- Wazuh 
+- Proxmox Backup Server
+- Open Media Vault
+- Kali Linux
+- Ubuntu server/desktop
 
 </details>
 
@@ -86,6 +91,7 @@ Linux, Proxmox Backup Server, Open Media Vault, stateless API authentication, Pr
 [X] Install Unifi Network Controller and import configuration <br> 
 [X] Deploy a Docker host VM <br>
 [X] Create virtualized Active Directory network <br>
+[X] Implement automated backups to a centralized server for all VMs <br>
 [...] Deploy Wazuh XDR & SIEM <br>
 [...] Configure Suricata IDS/IPS <br>
 [...] Deploy Nessus vulnerability scanner <br>
