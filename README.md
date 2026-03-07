@@ -38,6 +38,10 @@ Active Directory, Domain Controller, Windows Server, Windows 10/11 <br>
 Linux, Proxmox Backup Server, Open Media Vault, stateless API authentication, Proxmox VE, NAS, disaster recovery, ZFS RAID <br>
 → [backup-server-deployment](labs/backup-server-deployment/backup-server-deployment.md)
 
+7. **Wazuh SIEM/Endpoint Detection & Response System Deployment** <br>
+SIEM, vulnerability detection, file integrity monitoring, security operations, configuration assessment, threat hunting, Linux, Proxmox VE, <br>
+→ [wazuh-edr-implementation](labs/wazuh-edr-implementation/wazuh-edr-implementation.md)
+
 ## Architecture Diagram
 
 **IN PROGRESS:** Wazuh endpoint detection and response implementation for the Active Directory subnet
