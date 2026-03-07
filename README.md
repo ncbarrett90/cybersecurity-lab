@@ -96,10 +96,9 @@ SIEM, vulnerability detection, file integrity monitoring, security operations, c
 [X] Deploy a Docker host VM <br>
 [X] Create virtualized Active Directory network <br>
 [X] Implement automated backups to a centralized server for all VMs <br>
-[...] Deploy Wazuh XDR & SIEM <br>
+[X] Deploy Wazuh XDR & SIEM <br>
 [...] Configure Suricata IDS/IPS <br>
 [...] Deploy Nessus vulnerability scanner <br>
-
 
 
 
