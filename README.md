@@ -14,33 +14,37 @@ This lab simulates a small enterprise network with segmented security zones, fir
 
 Documentation approach: Each module includes an overview, architecture details, key security configurations, challenges/validation and summarized implementation notes.
 
-1. **OPNsense Firewall Deployment & Baseline Hardening** <br>
-Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, device hardening <br>
-→ [opnsense-deployment](labs/opnsense-deployment/opnsense-deployment.md)
+**Wazuh SIEM/EDR Detection Engineering** <br>
+SIEM, EDR, threat detection, threat modeling, file integrity monitoring, Kali Linux, Sysmon, Active Directory <br>
+→ [wazuh-detection-engineering](labs/wazuh-detection-engineering/wazuh-detection-engineering.md)
 
-2. **Local Network Segmentation w/ VLANs** <br>
-Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & Ethernet networking <br>
-→ [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
+**Wazuh SIEM/Endpoint Detection & Response System Deployment** <br>
+SIEM, vulnerability detection, file integrity monitoring, security operations, configuration assessment, threat hunting, Linux, Proxmox VE <br>
+→ [wazuh-edr-implementation](labs/wazuh-edr-implementation/wazuh-edr-implementation.md)
 
-3. **Proxmox Hypervisor Deployment & Hardening** <br>
-Linux, Proxmox, SSH, virtualization, SMTP <br>
-→ [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
-
-4. **Ubuntu Server Deployment & Hardening** <br>
-Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw <br>
-→ [ubuntu-server-deployment](labs/ubuntu-server-deployment/ubuntu-server-deployment.md)
-
-5. **Active Directory Environment Build** <br>
-Active Directory, Domain Controller, Windows Server, Windows 10/11 <br>
-→ [active-directory-environment](labs/active-directory-environment/active-directory-environment.md)
-
-6. **Proxmox Backup Server Deployment** <br>
+**Proxmox Backup Server Deployment** <br>
 Linux, Proxmox Backup Server, Open Media Vault, stateless API authentication, Proxmox VE, NAS, disaster recovery, ZFS RAID <br>
 → [backup-server-deployment](labs/backup-server-deployment/backup-server-deployment.md)
 
-7. **Wazuh SIEM/Endpoint Detection & Response System Deployment** <br>
-SIEM, vulnerability detection, file integrity monitoring, security operations, configuration assessment, threat hunting, Linux, Proxmox VE, <br>
-→ [wazuh-edr-implementation](labs/wazuh-edr-implementation/wazuh-edr-implementation.md)
+**Active Directory Environment Build** <br>
+Active Directory, Domain Controller, Windows Server, Windows 10/11 <br>
+→ [active-directory-environment](labs/active-directory-environment/active-directory-environment.md)
+
+**Ubuntu Server Deployment & Hardening** <br>
+Linux, Proxmox, Ubuntu, SSH, virtualization, fail2ban, unattended-upgrades, ufw <br>
+→ [ubuntu-server-deployment](labs/ubuntu-server-deployment/ubuntu-server-deployment.md)
+
+**Proxmox Hypervisor Deployment & Hardening** <br>
+Linux, Proxmox, SSH, virtualization, SMTP <br>
+→ [proxmox-deployment](labs/proxmox-deployment/proxmox-deployment.md)
+
+**Local Network Segmentation w/ VLANs** <br>
+Network security zones, switch & WAP configuration, firewall rules, 802.1Q VLAN trunking, wireless & Ethernet networking <br>
+→ [local-network-segmentation](labs/local-network-segmentation/local-network-segmentation.md)
+
+**OPNsense Firewall Deployment & Baseline Hardening** <br>
+Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, device hardening <br>
+→ [opnsense-deployment](labs/opnsense-deployment/opnsense-deployment.md)
 
 ## Architecture Diagram
 
