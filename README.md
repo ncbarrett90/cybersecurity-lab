@@ -107,11 +107,11 @@ Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, de
 [X] Create virtualized Active Directory network <br>
 [X] Implement automated backups to a centralized server for all VMs <br>
 [X] Deploy Wazuh XDR & SIEM <br>
-[X] Configure file integrity monitoring using EDR
-[X] Engineer threat detection rules for simulated attack
-[...] Simulate more complex attacks and detect using EDR/SIEM
-[...] Deploy Splunk server
-[...] Integrate Wazuh EDR (and other tools) w/ Splunk
+[X] Configure file integrity monitoring using EDR <br>
+[X] Engineer threat detection rules for simulated attack <br>
+[...] Simulate more complex attacks and detect using EDR/SIEM <br>
+[...] Deploy Splunk server <br>
+[...] Integrate Wazuh EDR (and other tools) w/ Splunk <br>
 [...] Configure Suricata IDS/IPS <br>
 [...] Deploy Nessus vulnerability scanner <br>
 
