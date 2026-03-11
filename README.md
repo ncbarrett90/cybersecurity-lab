@@ -92,15 +92,26 @@ Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, de
 
 ## Roadmap
 
+<details>
+<summary><strong>Completed (full list)</strong></summary>
+
 [X] OPNsense firewall deployment <br>
 [X] VLAN based network segmentation <br>
 [X] Production Proxmox server deployment & hardening<br>
 [X] Ubuntu server (VM) deployment & hardening <br>
 [X] Install Unifi Network Controller and import configuration <br> 
 [X] Deploy a Docker host VM <br>
+
+</details>
+
 [X] Create virtualized Active Directory network <br>
 [X] Implement automated backups to a centralized server for all VMs <br>
 [X] Deploy Wazuh XDR & SIEM <br>
+[X] Configure file integrity monitoring using EDR
+[X] Engineer threat detection rules for simulated attack
+[...] Simulate more complex attacks and detect using EDR/SIEM
+[...] Deploy Splunk server
+[...] Integrate Wazuh EDR (and other tools) w/ Splunk
 [...] Configure Suricata IDS/IPS <br>
 [...] Deploy Nessus vulnerability scanner <br>
 
