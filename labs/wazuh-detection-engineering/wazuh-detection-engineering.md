@@ -94,17 +94,3 @@ Three endpoints are monitored by the SIEM w/ the following log sources
 - **Nano compatibility**: Nano behaved unexpectedly over SSH on the Windows 10 agent. Resolved by installing vim via Chocolatey on all windows machines for text editing w/ copy and paste
 
 
-## Future Enhancements
-
-- **Additional detections**: Expand Sysmon ruleset to cover LOLBin abuse, persistence via registry run keys, and lateral movement
-- **MITRE ATT&CK mapping**: Tag all rules with corresponding ATT&CK technique IDs for better alert context and reporting
-- **Wazuh agent groups**: Migrate from individual agent configuration to centrally managed groups (workstations vs DC) to simplify config management at scale
-- **Splunk integration**: Implement Splunk as the main SIEM and forward Wazuh EDR logs
-
-
-
-## Next Project
-
-My next project will expand on the custom rules configured in this lab. I want to dig deeper and gather more information about the attack, and create additional rules to gain more insight into what is happening on these endpoints. 
-
-I will also perform other attacks and create rules to detect these different vectors. My goal with this is to develop both blue and red team skills while building a holistic understanding of cybersecurity.

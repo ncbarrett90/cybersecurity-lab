@@ -1,12 +1,14 @@
 # Cybersecurity Lab
 
-A hands on lab focused on cybersecurity, enterprise style network design, and IT best practices.
+> **Status: Retired.** Lab completed and torn down. Documentation preserved as portfolio reference. Current work continues in [kerflegal-lab](https://github.com/ncbarrett90/kerflegal-lab), a production-shaped Active Directory build modeling Microsoft's three-tier administrative model.
+
+A completed home lab focused on cybersecurity, enterprise style network design, and IT best practices.
 
 
 
 ## Lab Overview
 
-This lab simulates a small enterprise network with segmented security zones, firewalling, virtualized workloads, and layered defenses, enabling both blue-team (defensive) and red-team (offensive) cybersecurity practice. 
+This lab simulated a small enterprise network with segmented security zones, firewalling, virtualized workloads, and layered defenses, enabling both blue-team (defensive) and red-team (offensive) cybersecurity practice. 
 
 
 
@@ -48,22 +50,18 @@ Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, de
 
 ## Architecture Diagram
 
-**IN PROGRESS:** Wazuh endpoint detection and response implementation for the Active Directory subnet
-
 ![Network Diagram](network-diagram.png)
 
-**Note:** This is not all configured as of yet and is subject to change as the lab develops
 
 
+## What This Lab Demonstrated
 
-## Objectives
-
-- Design and operate a segmented enterprise style network
-- Build a secure virtualized lab environment
-- Implement layered security controls across the entire network
-- Develop hands on blue and red team cybersecurity skills
-- Document and automate lab infrastructure
-- Enable controlled offensive security testing
+- Designed and operated a segmented enterprise style network
+- Built a secure virtualized lab environment
+- Implemented layered security controls across the entire network
+- Developed hands on blue and red team cybersecurity skills
+- Documented and automated lab infrastructure
+- Enabled controlled offensive security testing
 
 <details>
 <summary><strong>Technology Stack</strong></summary>
@@ -90,30 +88,19 @@ Firewall installation, interface configuration, NAT, DNS, DHCP, logging, VPN, de
 
 
 
-## Roadmap
+## Completed Work
 
-<details>
-<summary><strong>Completed (full list)</strong></summary>
-
-[X] OPNsense firewall deployment <br>
-[X] VLAN based network segmentation <br>
-[X] Production Proxmox server deployment & hardening<br>
-[X] Ubuntu server (VM) deployment & hardening <br>
-[X] Install Unifi Network Controller and import configuration <br> 
-[X] Deploy a Docker host VM <br>
-
-</details>
-
-[X] Create virtualized Active Directory network <br>
-[X] Implement automated backups to a centralized server for all VMs <br>
-[X] Deploy Wazuh XDR & SIEM <br>
-[X] Configure file integrity monitoring using EDR <br>
-[X] Engineer threat detection rules for simulated attack <br>
-[...] Simulate more complex attacks and detect using EDR/SIEM <br>
-[...] Deploy Splunk server <br>
-[...] Integrate Wazuh EDR (and other tools) w/ Splunk <br>
-[...] Configure Suricata IDS/IPS <br>
-[...] Deploy Nessus vulnerability scanner <br>
+- [X] OPNsense firewall deployment
+- [X] VLAN based network segmentation
+- [X] Production Proxmox server deployment & hardening
+- [X] Ubuntu server (VM) deployment & hardening
+- [X] Install Unifi Network Controller and import configuration
+- [X] Deploy a Docker host VM
+- [X] Create virtualized Active Directory network
+- [X] Implement automated backups to a centralized server for all VMs
+- [X] Deploy Wazuh XDR & SIEM
+- [X] Configure file integrity monitoring using EDR
+- [X] Engineer threat detection rules for simulated attack
 
 
 
